@@ -1,0 +1,82 @@
+body{
+  background:  #f3f3f3;
+}
+
+.titulo {
+    font-family:'Montserrat';
+    font-size: 2.5rem;
+    padding: 3rem 1.5rem 1.5rem;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    color: #31BDD9;
+    border-bottom: 1px solid #31BDD9;
+    transition: .8s;
+}
+
+.contenedorExperiencias{
+  display: grid;
+  background: #31BDD9;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.iconosExperiencias{
+  width: 30%;
+  margin: 3rem 10rem;
+  border-radius: 30px;
+}
+.iconosExperiencias:hover{
+  animation-name: imgTransform;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+/* borde de cada icono */
+.iconoHtml{
+  border: 3px solid #FF4C00;
+}
+.iconoCss{
+  border: 3px solid #2C6BAB;
+}
+.iconoJs{
+  border: 3px solid #FFDE00;
+}
+.iconoNode{
+  border: 3px solid black;
+}
+.iconoGit{
+  border: 3px solid #b1b1b1;
+}
+.iconoMongo{
+  border: 3px solid rgb(58, 24, 14);
+}
+
+@keyframes imgTransform {
+  30%{
+    transform: translate(70px);
+
+  }
+  100%{
+    transform: translate(0px);
+  }
+}
+
+/* Trabajos */
+.contenedorTrabajos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.iconosTrabajos{
+  width: 50%;
+  margin: 3rem 17rem;
+  border-radius: 20px;
+}
+
+.iconosTrabajos:hover{
+  animation-name: imgTransform;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}

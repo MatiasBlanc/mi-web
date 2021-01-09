@@ -1,0 +1,61 @@
+body{
+  background:  #f3f3f3;
+}
+
+.tituloPresentacion1{
+  font-family:'Montserrat';
+  font-size: 2.5rem;
+  padding-top: 300px;
+  text-align: center;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  color: #000;
+  padding-bottom: 40px;
+}
+
+.tituloPresentacion{
+  font-family:'Montserrat';
+  font-size: 2.5rem;
+  padding-top: 50px;
+  text-align: center;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  color: #000;
+  border-top: 2px solid #31BDD9;
+}
+
+.imgPresentacion{
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    left: 50%;
+    top: 40px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    opacity: .4;
+}
+
+.barraDeNavegacion{
+  margin-top: 50px;
+}
+
+.titulo {
+    font-family:'Montserrat';
+    font-size: 2.5rem;
+    padding: 3rem 1.5rem 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    color: #31BDD9;
+    border-bottom: 1px solid #31BDD9;
+    transition: .8s;
+}
+
+  .contenedorPortafolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }

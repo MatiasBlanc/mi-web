@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+/* Barra de navegacion */
+.iconosNavBar{
+    width: 30px;
+    margin-right: 10px;
+    transition: 1s;
+    transform: translateY(3px);
+}
+.barraDeNavegacion{
+  width: 100%;
+  height: 80px;
+  background: #31BDD9;
+  padding: 10px 0px;
+  text-align: center;
+  transition: 1s;
+}
+.barraDeNavegacion:hover{
+    background: #44444a;
+    transition: 1s;
+}
+
+.navegacionLink{
+  font-size: 45px;
+  padding: 20px;
+  margin: 0px 50px;
+  background: #333336;
+  letter-spacing: 3px;
+  line-height: 80px;
+  font-size: 20px;
+  color: #74ED7E;
+  font-family: 'Poiret One', cursive;
+  border: 1px solid #74ED7E;
+}
+
+.navegacionLink:hover{
+  color: #5E8AD6;
+  transition: .8s;
+  border: 1px solid #5E8AD6;
+  /* CAMBIAR EL color de la imagen al hacewr hover */
+}
