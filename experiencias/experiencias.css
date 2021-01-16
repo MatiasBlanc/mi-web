@@ -13,12 +13,13 @@ body{
     color: #31BDD9;
     border-bottom: 1px solid #31BDD9;
     transition: .8s;
+    margin-bottom: 30px;
 }
 
 .contenedorExperiencias{
   display: grid;
   background: #31BDD9;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
