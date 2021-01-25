@@ -58,6 +58,7 @@ body{
     width: 100%;
     display: grid;
     gap: 100px;
+    padding: 50px 80px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }

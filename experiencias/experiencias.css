@@ -24,9 +24,9 @@ body{
 }
 
 .iconosExperiencias{
-  width: 30%;
+  width: 25%;
   margin: 3rem 10rem;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 .iconosExperiencias:hover{
   animation-name: imgTransform;
@@ -63,7 +63,7 @@ body{
   }
 }
 
-/* Trabajos */
+/* Trabajos
 .contenedorTrabajos{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -80,4 +80,4 @@ body{
   animation-name: imgTransform;
   animation-duration: 2s;
   animation-fill-mode: both;
-}
+} */
