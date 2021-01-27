@@ -1,5 +1,0 @@
-una pagina responsive
-
-applicacion frontend que se conecte con backend (API)
-
-backend crutt

@@ -57,12 +57,41 @@ body{
   .contenedorPortafolio{
     width: 100%;
     display: grid;
-    gap: 100px;
-    padding: 50px 80px;
+    text-align: center;
+    gap: 40px 0px;
+    padding: 50px 0px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
 
+  .portafolioBox {
+    margin-left: 90px;
+    width: 70%;
+    padding: 30px 0px 0px;
+    background: #44444a;
+  }
+
   .imagenProyecto {
     width: 400px;
+  }
+
+  .tituloProyecto {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    position: relative;
+  }
+
+  .btnProyecto {
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 50px 30px;
+    color: #31BDD9;
+    font-size: 20px;
+    background: #44444a;
+    font-family: 'Poiret One', cursive;
+    border-radius: 5px;
   }
