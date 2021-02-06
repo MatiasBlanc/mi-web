@@ -13,7 +13,6 @@
 }
 .barraDeNavegacion{
   width: 100%;
-  height: 80px;
   background: #31BDD9;
   padding: 10px 0px;
   text-align: center;
@@ -25,9 +24,8 @@
 }
 
 .navegacionLink{
-  font-size: 45px;
-  padding: 20px;
-  margin: 0px 50px;
+  padding: 20px 30px;
+  margin: 0px 20px 0px 100px;
   background: #333336;
   letter-spacing: 3px;
   line-height: 80px;
@@ -35,6 +33,15 @@
   color: #74ED7E;
   font-family: 'Poiret One', cursive;
   border: 1px solid #74ED7E;
+}
+
+
+.barraDeNavegacion{
+  width: 100%;
+}
+
+.barraDeNavegacion li {
+  margin-right: 20px;
 }
 
 .navegacionLink:hover{

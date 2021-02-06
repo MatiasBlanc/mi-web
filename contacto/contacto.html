@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portafolio</title>
+  <!-- Vincular -->
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="../general/css/navbar.css">
+  <!-- Fonst Family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500;800&family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+      <!-- Fonts -->
+      <script src="https://kit.fontawesome.com/b5c64b1657.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="barraDeNavegacion">
+        <a class="navegacionLink portafolio" href="../portafolio/portafolio.html"><li class="fas fa-briefcase"></li>PORTAFOLIO</a>
+        <a class="navegacionLink portafolio" href="../experiencias/experiencias.html"><li class="fas fa-award"></li>CURRICULUM</a>
+        <a class="navegacionLink acercaDe" href="../Sobre mi/sobreMi.html"><li class="fas fa-question-circle"></li>SOBRE MI</a>
+        <a class="navegacionLink blog" href="contacto.html"><li class=" fas fa-address-book"></li>CONTACTO</a>
+      </div>
+      <section class="contenedorFormulario">
+      <div class="formularioContacto">
+      <label for="form-email" style="opacity: 0;" class="">Nombre</label>
+        <input type="text" placeholder="Nombre" name="Nombre"  id="name" class="Formulario Nombre">
+      <hr>
+      <label for="form-email" style="opacity: 0;" class="">Email</label>
+        <input type="email" placeholder="Email" name="Email" id="Email" class="Formulario Email">
+      <hr>
+      <label for="form-email" style="opacity: 0;" class="">Telefono</label>
+        <input type="tel" placeholder="Telefono" name="Telefono" id="Telefono" class="Formulario Telefono">
+      <hr>
+      <label for="form-email" style="opacity: 0;" class="">Mensaje</label>
+        <input type="text" placeholder="Mensaje" name="Mensaje" id="mensaje" class="Formulario mensaje">
+      <hr>
+      <label for="form-email" style="opacity: 0;" class="">53 - 21</label>
+      <input type="text" placeholder="53 - 21" name="Mensaje" id="mensaje" class="Formulario mensaje">
+      <hr>
+        <input type="button" value="Enviar" id="Enviar" class="Enviar">
+      </div>
+    </section>
 </body>
 </html>
+

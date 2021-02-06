@@ -1,97 +1,139 @@
-body{
-  background:  #f3f3f3;
-}
+  body{
+    background:  #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+  }
 
-.tituloPresentacion1{
-  font-family:'Montserrat';
-  font-size: 2.5rem;
-  padding-top: 300px;
-  text-align: center;
-  letter-spacing: .5rem;
-  text-transform: uppercase;
-  color: #000;
-  padding-bottom: 40px;
-}
+  .container {
+    width: 90%;
+  }
 
-.tituloPresentacion{
-  font-family:'Montserrat';
-  font-size: 2.5rem;
-  padding-top: 50px;
-  text-align: center;
-  letter-spacing: .5rem;
-  text-transform: uppercase;
-  color: #000;
-  margin-bottom: 52px;
-}
-
-.imgPresentacion{
-    position: absolute;
-    max-height: 1000px;
-    width: 100%;
-    left: 50%;
-    top: 40px;
-    -webkit-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    opacity: .4;
-}
-
-.barraDeNavegacion{
-  margin-top: 50px;
-}
-
-.titulo {
-    font-family:'Montserrat';
-    font-size: 2.5rem;
-    padding: 3rem 1.5rem 1.5rem;
-    margin-top: 20px;
+  .tituloPresentacion1{
+    font-family: monospace;
+    font-size: 44px;
+    padding-top: 300px;
     text-align: center;
     letter-spacing: .5rem;
     text-transform: uppercase;
-    color: #31BDD9;
-    border-bottom: 1px solid #31BDD9;
-    transition: .8s;
-}
+    color: #000;
+    padding-bottom: 40px;
+  }
 
-  .contenedorPortafolio{
-    width: 100%;
-    display: grid;
+  .tituloPresentacion{
+    font-family: monospace;
+    font-size: 40px;
+    padding-top: 50px;
     text-align: center;
-    gap: 40px 0px;
-    padding: 50px 0px;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 52px;
+  }
+
+  .imgPresentacion{
+      position: absolute;
+      max-height: 1000px;
+      width: 100%;
+      left: 50%;
+      top: 40px;
+      -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+      -o-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+      opacity: .4;
+  }
+
+  .title {
+      font-family:'Montserrat';
+      font-weight: 800;
+      font-size: 2.5rem;
+      padding: 3rem 1.5rem 1.5rem;
+      margin-top: 20px;
+      text-align: center;
+      letter-spacing: .5rem;
+      text-transform: uppercase;
+      color: #31BDD9;
+      border-bottom: 1px solid #31BDD9;
+      transition: .8s;
+  }
+    
+  .portafolioContainer {
+    width: 100%;
+    padding: 70px 100px;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    gap: 100px;
   }
 
   .portafolioBox {
-    margin-left: 90px;
-    width: 70%;
-    padding: 30px 0px 0px;
-    background: #44444a;
+    width: 95%;
+    height: 670px;
+    border: 1px solid gray;
+    background: #FFFFFF;
   }
 
-  .imagenProyecto {
-    width: 400px;
+  .imgPortafolio {
+    width: 100%;
   }
 
-  .tituloProyecto {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 50px;
+  .descriptionPortafolio {
+    font-family: monospace;
+    text-align: start;
+    padding: 10px 20px 0px;
+    font-size: 18px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    color:#929292;
+    width: 90%;
+    line-height: 26px;
+  }
+
+  .titlePortafolio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
     text-transform: uppercase;
-    font-family: 'Montserrat';
-    position: relative;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    padding: 20px 0px 10px;
+    text-align: center;
   }
 
-  .btnProyecto {
+  .fas {
+    padding: 0px 5px;
+  }
+
+  .data {
     display: inline-block;
-    text-align: center;
-    margin: 20px 0px;
-    padding: 50px 30px;
-    color: #31BDD9;
-    font-size: 20px;
-    background: #44444a;
-    font-family: 'Poiret One', cursive;
-    border-radius: 5px;
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+    color: #575757;
+    margin: 15px 10px 0px;
+  }
+
+  .dataWeb {
+    margin: -18px;
+  }
+  .dataBtn {
+    width: 32%;
+    display: block;
+    margin: 40px 20px 30px;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+  }
+
+  .dataBtn:hover {
+    transition: 1s;
+    border-bottom: 1px solid #13AFF0;
+  }
+
+  .btnportafolio {
+    font-family: 'Roboto Mono';
+    color: #000;
+    font-size: 18px;
+  }
+
+  .btnportafolio:hover, .data:hover {
+    transition: 1s;
+    color: #13AFF0;
   }
