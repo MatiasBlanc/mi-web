@@ -1,80 +1,89 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
-    <meta charset="utf-8">
     <title>Portafolio</title>
-  <!-- Vincular -->
-    <link rel="stylesheet" href="portafolio.css">
-    <link rel="stylesheet" href="../general/css/navbar.css">
-  <!-- Fonts -->
-    <script src="https://kit.fontawesome.com/b5c64b1657.js" crossorigin="anonymous"></script>
-
-  <!-- Fonst Family -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500;800&family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
-
+    <!-- metas -->
+    <meta charset="utf-8">
+    <!-- Vincular Css -->
+      <link rel="stylesheet" href="portafolio.css">
+      <link rel="stylesheet" href="../general/css/navbar.css">
+    <!-- Fonts -->
+      <script src="https://kit.fontawesome.com/b5c64b1657.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500;800&family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
   </head>
   <body>
-    <img class="imgPresentacion" src="../general/IMG/home-office-336377.jpg" alt="">
-    <div class="presentacion">
-      <h2 class="tituloPresentacion1">Matias Blanc</h2>
-      <h1 class="tituloPresentacion">Javascript Developer</h1>
-    </div>
-
-    <div class="barraDeNavegacion">
-      <a class="navegacionLink portafolio" href="portafolio.html"><li class="fas fa-briefcase"></li>PORTAFOLIO</a>
-      <a class="navegacionLink portafolio" href="../experiencias/experiencias.html"><li class="fas fa-award"></li>CURRICULUM</a>
-      <a class="navegacionLink acercaDe" href="../Sobre mi/sobreMi.html"><li class="fas fa-question-circle"></li>SOBRE MI</a>
-      <a class="navegacionLink blog" href="../contacto/contacto.html"><li class=" fas fa-address-book"></li>CONTACTO</a>
-    </div>
-    <h2 class="title">PORTAFOLIO</h2>
-    <section class="container">
-      <section class="portafolioContainer">
-
-        <article class="portafolioBox">
-          <img class="imgPortafolio" src="../general/IMG/office-581131.jpg" alt="">
-          <div class="textBox">
-            <h2 class="titlePortafolio">Peso Planetastico</a></h2>
-            <p class="descriptionPortafolio">Ya que tu peso es distinto en otros planetas.<br> Esta calculadora que se encarga de sacar tu peso en otros planetas como marte o jupiter.</p>
-            <ul type="none">
-              <li class="data" ><a href="" class="data"><i class="fas fa-user"></i>Matias Blanc -</a></li>
-              <li class="data dataWeb" ><a href="" class="data"><i class="fas fa-folder"></i>Web</a></li>
-              <li class="dataBtn" ><a href="../../Terminados/pesoPlanetastico/pesoPlanetastico.html" class="btnportafolio">Ver Proyecto<i class="fas fa-angle-right"></i></a></li>
-            </ul>
-          </div>
-        </article>
-  
-        <article class="portafolioBox">
-          <img class="imgPortafolio" src="../general/IMG/office-581131.jpg" alt="">
-          <div class="textBox">
-            <h2 class="titlePortafolio">Peso Planetastico</a></h2>
-            <p class="descriptionPortafolio">Ya que tu peso es distinto en otros planetas.<br> Esta calculadora que se encarga de sacar tu peso en otros planetas como marte o jupiter.</p>
-            <ul type="none">
-              <li class="data" ><a href="" class="data"><i class="fas fa-user"></i>Matias Blanc -</a></li>
-              <li class="data dataWeb" ><a href="" class="data"><i class="fas fa-folder"></i>Web</a></li>
-              <li class="dataBtn" ><a href="" class="btnportafolio">Ver Proyecto<i class="fas fa-angle-right"></i></a></li>
-            </ul>
-          </div>
-        </article>
-  
-        <article class="portafolioBox">
-          <img class="imgPortafolio" src="../general/IMG/office-581131.jpg" alt="">
-          <div class="textBox">
-            <h2 class="titlePortafolio">Peso Planetastico</a></h2>
-            <p class="descriptionPortafolio">Ya que tu peso es distinto en otros planetas.<br> Esta calculadora que se encarga de sacar tu peso en otros planetas como marte o jupiter.</p>
-            <ul type="none">
-              <li class="data" ><a href="" class="data"><i class="fas fa-user"></i>Matias Blanc -</a></li>
-              <li class="data dataWeb" ><a href="" class="data"><i class="fas fa-folder"></i>Web</a></li>
-              <li class="dataBtn" ><a href="" class="btnportafolio">Ver Proyecto<i class="fas fa-angle-right"></i></a></li>
-            </ul>
-          </div>
-        </article>
-    </section>
-    </section>
-    <div id="qrcode">
-      <img src="https://www.codigos-qr.com/qr/php/qr_img.php?d=https%3A%2F%2Fdiscord.gg%2FV4eJPeHcCJ&s=4&e=m" alt="Generador de Códigos QR Codes"/>
-      <br/><a href="https://www.codigos-qr.com/en/qr-code-generator/" target="_blank" id"qrgenerator">Discord</a>
+    <!-- Presentation Me ( Mi Presentacion ) -->
+    <header class="Presentation__container">
+        <img class="presentation__picture" src="../assets/home-office-336377.jpg" alt="">
+      <div class="presentation__texts">
+        <h2 class="presentation__title">Matias Blanc</h2>
+        <h1 class="presentation__subtitle">Javascript Developer</h1>
+        <a href="#" class="presentation__cta">Contactame ahora</a>
       </div>
-      
+    </header>
+
+    <!-- navbar container -->
+    <nav class="navbar__container container">
+      <a class="navegacionLink portafolio" href="portafolio.html"><li class="fas fa-briefcase"></li>PORTAFOLIO</a>
+      <a class="navegacionLink Curriculum" href="../experiencias/experiencias.html"><li class="fas fa-award"></li>CURRICULUM</a>
+      <a class="navegacionLink Blog" href="../blog/blog.html"><li class="fas fa-blog"></li>BLOG</a>
+      <a class="navegacionLink acercaDe" href="../Sobre mi/sobreMi.html"><li class="fas fa-question-circle"></li>SOBRE MI</a>
+    </nav>
+
+    <!-- portafolio container -->
+    <section class="projects">
+      <div class="container">
+        <h2 class="subtitle">PORTAFOLIO</h2>
+      <div class="project__grid">
+
+        <!-- project box -->
+        <article class="projects__item">
+          <img class="projects__img" src="../assets/img1.jpg" alt="">
+          <div class="projects__hover">
+            <h2 class="projects__title">Peso Planetastico</a></h2>
+            <i class="fas fa-file-alt projects__icon"></i>
+          </div>
+          </article>
+
+        <!-- project box -->
+          <article class="projects__item">
+          <img class="projects__img" src="../assets/img2.jpg" alt="">
+          <div class="projects__hover">
+            <h2 class="projects__title">Peso Planetastico</a></h2>
+            <i class="fas fa-file-alt projects__icon"></i>
+          </div>
+          </article>
+
+        <!-- project box -->
+        <article class="projects__item">
+          <img class="projects__img" src="../assets/img3.jpg" alt="">
+          <div class="projects__hover">
+            <h2 class="projects__title">Peso Planetastico</a></h2>
+            <i class="fas fa-file-alt projects__icon"></i>
+          </div>
+          </article>
+
+        <!-- project box -->
+        <article class="projects__item">
+          <img class="projects__img" src="../assets/img4.jpg" alt="">
+          <div class="projects__hover">
+            <h2 class="projects__title">Peso Planetastico</a></h2>
+            <i class="fas fa-file-alt projects__icon"></i>
+          </div>
+        </article>
+
+        <!-- project box -->
+        <article class="projects__item">
+          <img class="projects__img" src="../assets/img5.jpg" alt="">
+          <div class="projects__hover">
+            <h2 class="projects__title">Peso Planetastico</a></h2>
+            <i class="fas fa-file-alt projects__icon"></i>
+          </div>
+        </article>
+
+      </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -11,14 +11,14 @@
     transition: 1s;
     transform: translateY(3px);
 }
-.barraDeNavegacion{
+.navbar__container{
   width: 100%;
   background: #31BDD9;
   padding: 10px 0px;
   text-align: center;
   transition: 1s;
 }
-.barraDeNavegacion:hover{
+.navbar__container:hover{
     background: #44444a;
     transition: 1s;
 }

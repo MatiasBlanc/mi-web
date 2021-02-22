@@ -26,6 +26,10 @@
     color: #FFFFFF;
 }
 
+/* .Formulario:invalid {
+    border: 2px solid rgb(255, 0, 0);
+} */
+
 .Nombre {
     margin-top: 40px;
 }
