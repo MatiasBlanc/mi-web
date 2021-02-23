@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+/* Barra de navegacion */
+.navbar__container {
+  width: 100%;
+  background: #31BDD9;
+  padding: 10px 0px;
+  text-align: center;
+  transition: 1s;
+}
+
+.navbar__container:hover{
+    background: #44444a;
+    transition: 1s;
+}
+
+.navbar__link{
+  padding: 20px 30px;
+  margin: 0px 20px 0px 100px;
+  background: #333336;
+  letter-spacing: 3px;
+  line-height: 80px;
+  font-size: 20px;
+  color: #74ED7E;
+  font-family: 'Poiret One', cursive;
+  border: 1px solid #74ED7E;
+}
+
+.navbar__link:hover, .navbar__icon:hover{
+  color: #5E8AD6;
+  transition: .8s;
+  border: 1px solid #5E8AD6;
+}
+
+.navbar__icon{
+  font-size: 25px;
+  margin-right: 10px;
+}

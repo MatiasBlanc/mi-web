@@ -1,0 +1,25 @@
+  /* redes container */
+
+  .redes__container {
+    position: relative;
+    text-align: center;
+  }
+
+  .redes__cta {
+    padding: 40px 50px 20px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .redes__cta:hover {
+    transform: rotate(360deg) rotateY(360deg);
+    transition: .8s;
+  }
+
+  .fa-youtube:hover {
+    color: red;
+  }
+
+  .fa-discord:hover {
+    color: #738ADB;
+  }
